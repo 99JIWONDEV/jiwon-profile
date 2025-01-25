@@ -263,7 +263,7 @@ body::-webkit-scrollbar-thumb {
 .has-scrollbar {
 	display: flex;
 	gap: 20px;
-	overflow-x:scroll;
+	overflow-x: auto;
 	padding-block-end: 30px;
 	margin-block-end: -15px;
 	scroll-snap-type: inline mandatory;
