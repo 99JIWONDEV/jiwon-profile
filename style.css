@@ -283,7 +283,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .has-scrollbar::-webkit-scrollbar-button {
-	width: calc(25% - 25px);
+	width: calc(10% - 25px);
 }
 
 /* ---------------------------- */
