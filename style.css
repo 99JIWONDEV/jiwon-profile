@@ -263,7 +263,7 @@ body::-webkit-scrollbar-thumb {
 .has-scrollbar {
 	display: flex;
 	gap: 20px;
-	overflow-x: scroll;
+	overflow-x:scroll;
 	padding-block-end: 30px;
 	margin-block-end: -15px;
 	scroll-snap-type: inline mandatory;
@@ -275,7 +275,6 @@ body::-webkit-scrollbar-thumb {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  /* width: 12px; 스크롤바 너비 */
   height: 4px; /* 스크롤바 높이 */
 }
 
@@ -289,6 +288,16 @@ body::-webkit-scrollbar-thumb {
 
 .has-scrollbar::-webkit-scrollbar-button {
 	width: calc(10% - 25px);
+} 
+
+@media (prefers-color-scheme: dark){
+  .has-scrollbar::-webkit-scrollbar-track {
+    background-color: var(--black);
+  }
+  
+  .has-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--theme-color);
+  }
 }
 
 /* ---------------------------- */
