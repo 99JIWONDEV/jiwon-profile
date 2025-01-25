@@ -683,11 +683,6 @@ body::-webkit-scrollbar-thumb {
 		padding: 30px 35px;
 	}
 
-	.card-content > a {
-		top: 30px;
-		right: 30px;
-	}
-
   .card-content > ion-icon {
 		top: 30px;
 		right: 30px;
