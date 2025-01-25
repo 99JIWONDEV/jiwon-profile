@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Jiwon - 프론트엔드 개발자</title>
+
+		<!-- 파비콘 -->
+		<link rel="icon" href="./assets/icons8-비행기-이륙-70.png" type="image/svg+xml" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="./style.css" />
+
+		<!-- 구글 폰트 -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+   
+		<!-- 프리로드 이미지 -->
+		<link rel="preload" as="image" href="./assets/images/main-image.jpg" />
+	</head>
+
+	<body>
+		<!-- Header -->
+		<header class="header" data-header>
+			<div class="container">
+				<a href="#" class="logo">Jiwon</a>
+
+				<nav class="navbar" data-navbar>
+					<ul class="navbar-list">
+						<li>
+							<a href="#home" class="navbar-link" data-nav-link>Home</a>
+						</li>
+						<li>
+							<a href="#timeline" class="navbar-link" data-nav-link>Timeline</a>
+						</li>
+						<li>
+							<a href="#mbtis" class="navbar-link" data-nav-link>MBTI</a>
+						</li>
+						<li>
+							<a href="#experience" class="navbar-link" data-nav-link>Experience</a>
+						</li>
+						<li>
+							<a href="#planning" class="navbar-link" data-nav-link>Planning</a>
+						</li>
+						<li>
+							<a href="#enjoy" class="navbar-link" data-nav-link>Enjoy</a>
+						</li>
+					</ul>
+				</nav>
+
+				<button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+					<span class="line line-1"></span>
+					<span class="line line-2"></span>
+					<span class="line line-3"></span>
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<article>
+				<!-- Home -->
+				<section class="section home" id="home" aria-label="home">
+					<div class="container">
+						<figure class="home-banner img-holder has-before" style="--width: 640; --height: 840">
+							<img src="./assets/images/main-image.jpg" width="640" height="840" alt="Bernard Smith" class="img-cover" />
+						</figure>
+
+						<div class="home-content">
+							<p class="section-subtitle">성장하는 프론트엔드 개발자</p>
+
+							<h1 class="h1 home-title">박 &nbsp 지 &nbsp 원</h1>
+
+							<ul class="home-list">
+								<li>
+									<a href="https://jiwon99.notion.site/716c9566786e45fe85bfb0f777057ce2" target="_blank" class="list-link">
+										<span class="span">포트폴리오</span>
+
+										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://www.instagram.com/justin_park99/" target="_blank" class="list-link">
+										<span class="span">인스타그램</span>
+										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+									</a>
+								</li>
+
+								<li>
+									<a href="https://www.youtube.com/watch?v=4thiZyVZ4pU" target="_blank" class="list-link">
+										<span class="span">Chill한 음악</span>
+
+										<ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+									</a>
+								</li>
+							</ul>
+
+							<ul class="exp-list">
+								<li class="list-item">
+									<strong class="strong">2</strong>
+
+									<span class="span">
+										번의<br />
+										인턴경험
+									</span>
+								</li>
+
+								<li class="list-item">
+									<strong class="strong">5+</strong>
+
+									<span class="span">
+										프로그래밍을<br />
+										시작한지 어느새...
+									</span>
+								</li>
+							</ul>
+
+							<a href="#timeline" class="slide-down-btn" aria-label="scroll down">
+								<ion-icon name="arrow-down" aria-hidden="true"></ion-icon>
+							</a>
+						</div>
+					</div>
+				</section>
+
+				<!-- Timeline -->
+				<section class="section timeline" id="timeline" aria-label="timeline">
+					<div class="container">
+						<p class="section-subtitle">Timeline</p>
+						<h2 class="h2 section-title">저는 이렇게 살았답니다</h2>
+
+						<ul class="timeline-list">
+							<li class="timeline-item">
+								<h3 class="item-period">2018. 03 ~ 2025. 02</h3>
+								<p class="item-title">아주대학교</p>
+								<p class="item-address">소프트웨어학과 & 영어영문학과</p>
+							</li>
+
+							<li class="timeline-item">
+								<h3 class="item-period">2019. 02 ~</h3>
+								<p class="item-title">영어과외 선생님</p>
+								<p class="item-address">지금까지 총 16명의 학생 지도</p>
+							</li>
+
+							<li class="timeline-item">
+								<h3 class="item-period">2023.02</h3>
+								<p class="item-title">소프트웨어학과로 전과</p>
+								<p class="item-address">전과 3수 했습니다;;;</p>
+							</li>
+
+							<li class="timeline-item">
+								<h3 class="item-period">2023. 06 ~ 2023. 12</h3>
+								<p class="item-title">PTKOREA</p>
+								<p class="item-address">프론트엔드 보조 인턴</p>
+							</li>
+
+							<li class="timeline-item">
+								<h3 class="item-period">2024. 07 ~ 2024. 08</h3>
+								<p class="item-title">(주) 위드플러스</p>
+								<p class="item-address">프론트엔드 개발</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- MBTI -->
+				<section class="section mbtis has-before" id="mbtis" aria-label="mbtis" >
+					<div class="container">
+						<div class="mbtis-content">
+							<p class="section-subtitle">MBTI</p>
+							<h2 class="h2 section-title">그래도 나름 사회화된 T</h2>
+							<p class="section-text">이거 작성하려고 MBTI 검사 새로 했는데... <br />6년째 바뀌지 않는 확신의 ESTJ</p>
+
+							<ul class="mbtis-list">
+								<li class="mbtis-item">
+									<div class="wrapper">
+										<h3 class="mbti-title">E</h3>
+										<data class="mbti-value" value="61%">61%</data>
+									</div>
+									<div class="progress-box">
+										<div class="progress" style="width: 61%"></div>
+									</div>
+								</li>
+
+								<li class="mbtis-item">
+									<div class="wrapper">
+										<h3 class="mbti-title">S</h3>
+										<data class="mbti-value" value="68%">68%</data>
+									</div>
+									<div class="progress-box">
+										<div class="progress" style="width: 68%"></div>
+									</div>
+								</li>
+
+								<li class="mbtis-item">
+									<div class="wrapper">
+										<h3 class="mbti-title">T</h3>
+										<data class="mbti-value" value="60%">60%</data>
+									</div>
+									<div class="progress-box">
+										<div class="progress" style="width: 60%"></div>
+									</div>
+								</li>
+
+								<li class="mbtis-item">
+									<div class="wrapper">
+										<h3 class="mbti-title">J</h3>
+										<data class="mbti-value" value="75%">75%</data>
+									</div>
+									<div class="progress-box">
+										<div class="progress" style="width: 75%"></div>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="mbtis-banner has-before"></div>
+						<img src="./assets/images/chillguy.webp" class="estj-image" alt="estj" />
+					</div>
+				</section>
+
+				<!-- Experience -->
+				<section class="section experience" id="experience" aria-label="experience">
+					<div class="container">
+						<p class="section-subtitle">Experience</p>
+						<h2 class="h2 section-title">좋았던 경험들</h2>
+
+						<ul class="has-scrollbar">
+							<li class="scrollbar-item">
+								<div class="card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="/assets/images/experience1.jpeg" width="700" height="675" loading="lazy" alt="Magic Art" class="img-cover" />
+									</figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">🛫 가족여행</h3>
+										<p class="card-text">저희 가족은 미국 영주권 갱신 때문에 매년 미국에 간답니다.</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="scrollbar-item">
+								<div class="card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="./assets/images/experience2.jpeg" width="700" height="675" loading="lazy" alt="Bona Green" class="img-cover" />
+									</figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">👨‍💻 인턴 경험</h3>
+										<p class="card-text">누구와 일하느냐가 중요하다는 것을 알게된 경험이었습니다.</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="scrollbar-item">
+								<div class="card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="./assets/images/experience3.jpeg" width="700" height="675" loading="lazy" alt="Leo Dandora" class="img-cover" />
+									</figure>
+
+									<div class="card-content">
+										<h3 class="h3 card-title">🎊 유레카 합격</h3>
+										<p class="card-text">면접보고 떨어진 줄 알았는데 럭키비키잖아...🍀</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Planning -->
+				<section class="section planning" id="planning" aria-label="planning">
+					<div class="container">
+						<div class="planning-content">
+							<p class="section-subtitle">Planning</p>
+							<h2 class="h2 section-title">앞으로의 계획은요</h2>
+							<p class="section-text">유레카를 함께 할 수 있어서 너무 감사합니다. 유레카에서 좋은 동료들을 만나고, 실력을 키워서 세상을 변화시키는 프론트엔드 개발자가 되고 싶습니다!</p>
+						</div>
+
+						<ul class="planning-list">
+							<li>
+								<div class="planning-card">
+									<ion-icon name="checkmark-circle-outline"></ion-icon>
+									<h3 class="card-title">계획1: 유레카를 성실하게 참여한다</h3>
+								</div>
+							</li>
+
+							<li>
+								<div class="planning-card">
+									<ion-icon name="checkmark-circle-outline"></ion-icon>
+									<h3 class="card-title">계획2: 계획1을 절대 잊지않는다</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Enjoy -->
+				<section class="section enjoy" id="enjoy" aria-label="enjoy">
+					<div class="container">
+						<p class="section-subtitle">Enjoy</p>
+						<h2 class="h2 section-title">내가 좋아하는 것들</h2>
+
+						<ul class="has-scrollbar">
+							<li class="scrollbar-item">
+								<div class="card enjoy-card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="./assets/images/enjoy1.jpeg" width="600" height="675" loading="lazy" alt="VS Code Gets New JavaScript Debugger" class="img-cover" />
+									</figure>
+									<div class="card-content">
+										<h3 class="h3 card-title">🗽 여행은 항상 좋아</h3>
+										<p class="card-text">유레카 수료하고 여행 갈 사람!</p>
+									</div>
+								</div>
+							</li>
+
+							<li class="scrollbar-item">
+								<div class="card enjoy-card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="./assets/images/enjoy2.jpeg" width="600" height="675" loading="lazy" alt="Javalin Framework for Kotlin and Java Updated" class="img-cover" />
+									</figure>
+									<div href="#" class="card-content">
+										<h3 class="h3 card-title">☕️ 느좋 카페</h3>
+										<p class="card-text">느낌 좋은 카페가서 사진 찍기👍</p>
+                  </div>
+								</div>
+							</li>
+
+							<li class="scrollbar-item">
+								<div class="card enjoy-card">
+									<figure class="card-banner img-holder" style="--width: 600; --height: 675">
+										<img src="./assets/images/enjoy3.jpeg" width="600" height="675" loading="lazy" alt="JavaScript Dominated Open Source in 2022" class="img-cover" />
+									</figure>
+									<div" class="card-content">
+                  <a href="https://www.youtube.com/watch?v=ZFM36LrOoP8" target="_blank">
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true" ></ion-icon>
+                  </a>
+										<h3 class="h3 card-title">🎧 내 방에서 음악듣기</h3>
+										<p class="card-text">제가 무슨 노래 듣게요? (클릭)</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</article>
+		</main>
+
+		<!-- 
+    - #FOOTER
+  -->
+
+		<footer class="footer">
+			<div class="container">
+				<p class="copyright">&copy; 2025. All rights reserved by <a href="#" class="copyright-link">Jiwon Park.</a></p>
+
+				<ul class="social-list">
+					<li>
+						<a href="https://www.linkedin.com/in/jiwon-park-205a362b6/" target="_blank" class="social-link">
+							<ion-icon name="logo-linkedin"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.instagram.com/justin_park99/" target="_blank" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://github.com/99JIWONDEV" target="_blank" class="social-link">
+							<ion-icon name="logo-github"></ion-icon>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://jiwon99.notion.site/716c9566786e45fe85bfb0f777057ce2" target="_blank" class="social-link">
+							<ion-icon name="accessibility-outline"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- 
+    - custom js link
+  -->
+		<script src="./script.js" defer></script>
+
+		<!-- 
+    - ionicon link
+  -->
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
