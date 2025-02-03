@@ -16,7 +16,7 @@
 	--black: hsl(0, 0%, 0%);
 
 	/* 폰트 */
-  --ff-poppins: "Poppins", sans-serif;
+	--ff-poppins: "Poppins", sans-serif;
 	--ff-mulish: "Mulish", sans-serif;
 
 	--fs-35: 3.5rem;
@@ -129,7 +129,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-	width: 12px;
+	width: 6px;
 	height: 2px;
 }
 
@@ -275,11 +275,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .has-scrollbar::-webkit-scrollbar {
-  height: 4px; /* 스크롤바 높이 */
+	height: 4px; /* 스크롤바 높이 */
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-	background-color: var(--dim-gray);
+	background-color: var(--black_20);
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
@@ -287,8 +287,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .has-scrollbar::-webkit-scrollbar-button {
-	width: calc(10% - 25px);
-} 
+	width: calc(25% - 25px);
+}
 
 /* ---------------------------- */
 /* Header */
@@ -687,7 +687,7 @@ body::-webkit-scrollbar-thumb {
 		padding: 30px 35px;
 	}
 
-  .card-content > ion-icon {
+	.card-content > ion-icon {
 		top: 30px;
 		right: 30px;
 	}
